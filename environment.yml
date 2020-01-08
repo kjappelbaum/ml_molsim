@@ -4,7 +4,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - appnope=0.1.0
   - attrs=19.3.0
   - backcall=0.1.0
   - blas=1.0
@@ -34,11 +33,8 @@ dependencies:
   - jupyterlab=1.2.4
   - jupyterlab_server=1.0.6
   - kiwisolver=1.1.0
-  - libcxx=4.0.1
-  - libcxxabi=4.0.1
   - libedit=3.1.20181209
   - libffi=3.2.1
-  - libgfortran=3.0.1
   - libpng=1.6.37
   - libsodium=1.0.17
   - libtiff=4.0.10
