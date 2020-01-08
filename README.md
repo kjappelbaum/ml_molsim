@@ -6,11 +6,10 @@
 
 ```(bash) 
 mkdir molsim_ml 
-git clone XY
-cd XY
-jupyter lab # or jupyter notebook if you prefer
+git clone https://github.com/kjappelbaum/ml_molsim2020.git
+cd ml_molsim2020
+jupyter notebook # or jupyter lab if you prefer
 ```
-
 ## Use it on MyBinder
 It can take some time to build the instance and the computing resources are
 limited. 
