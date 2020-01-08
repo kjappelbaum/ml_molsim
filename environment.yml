@@ -108,8 +108,11 @@ dependencies:
   - pip:
     - astroid==2.3.3
     - astropy==4.0
+    - cloudpickle==1.2.2
     - confuse==1.0.0
+    - future==0.18.2
     - htmlmin==0.1.12
+    - hyperopt==0.2.2
     - ipython-genutils==0.2.0
     - isort==4.3.21
     - jupyter-client==5.3.4
@@ -121,6 +124,7 @@ dependencies:
     - mccabe==0.6.1
     - missingno==0.4.2
     - nbformat==4.4.0
+    - networkx==2.2
     - numba==0.47.0
     - pandas-profiling==2.3.0
     - pandocfilters==1.4.2
@@ -133,6 +137,7 @@ dependencies:
     - pytest-pylint==0.14.1
     - pyyaml==5.2
     - pyzmq==18.1.1
+    - tqdm==4.41.1
     - typed-ast==1.4.0
     - webencodings==0.5.1
     - wrapt==1.11.2
