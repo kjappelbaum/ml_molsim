@@ -6,51 +6,59 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## How to run it
+
 Some parts of this exercise will need more computational resources than most of
 the other MolSim exercises. If you have a modern laptop, we recommend you run them
 on the laptop. If you do not want to use your machine or the cluster, you
 can also run the exercises on Google Colab or Binder.
 
-### Run it locally (recommended) 
+### Run it locally (recommended)
+
 First, you need to create a conda environment using the `environment.yml`
-file we provide in this repository. 
+file we provide in this repository.
 
 If you do not already have anaconda installed, head over to
 https://docs.conda.io/en/latest/miniconda.html and install a python 3.7 version
-for your operating system. 
+for your operating system.
 
 Then, create a new folder and clone this repository
-```(bash) 
+
+```(bash)
 git clone https://github.com/kjappelbaum/ml_molsim2020.git
 cd ml_molsim2020
 ```
 
 Now you can create a new conda environment.
-```(bash) 
+
+```(bash)
 conda env create --name molsim_ml --file=environment.yml
 ```
 
 After this completed, active the environment and open the jupyter notebook
+
 ```(bash)
 conda activate molsim_ml
 jupyter notebook molsim_ml.ipynb
 ```
 
-### Use it on Google Colab 
-Here, you can use relatively powerful computing resources from Google for free. 
+### Use it on Google Colab
+
+![Screenshot of the Colab environment](_static/colab.png)
+Here, you can use relatively powerful computing resources from Google for free.
 Click the "Open in Colab" button on the top and run the first three cells to
 install the dependencies. Then you should be able to use the notebook in Colab.
 Make sure to make a copy into your Google Drive and work on this copy.
 
-*Note:* If you have a Google Account from your organization, e.g. university, you might
+_Note:_ If you have a Google Account from your organization, e.g. university, you might
 need to log out and use your personal account as many organizations block
-third-party applications. 
+third-party applications.
 
 ### Use it on Binder
+
 MyBinder is a free service to run interactively run jupyter notebooks from git repositories.
 Compared to the Colab, computing resources are limited, and it can take some time
 to start your instance.
 Just click on the Binder button and wait for your instance to start.
 
-*Note:* If you encounter a 404 error, click on the jupyter symbol and you will be redirected
+_Note:_ If you encounter a 404 error, click on the jupyter symbol and you will be redirected
 to a file browser where you can select `molsim_ml.ipynb`.
