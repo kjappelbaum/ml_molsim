@@ -44,10 +44,13 @@ jupyter notebook molsim_ml.ipynb
 ### Use it on Google Colab
 
 ![Screenshot of the Colab environment](_static/colab.png)
+
 Here, you can use relatively powerful computing resources from Google for free.
 Click the "Open in Colab" button on the top and run the first three cells to
 install the dependencies. Then you should be able to use the notebook in Colab.
-Make sure to make a copy into your Google Drive and work on this copy.
+
+**Make sure to make a copy into your Google Drive and work on this copy. And
+not on the shared notebook**
 
 _Note:_ If you have a Google Account from your organization, e.g. university, you might
 need to log out and use your personal account as many organizations block
@@ -60,5 +63,6 @@ Compared to the Colab, computing resources are limited, and it can take some tim
 to start your instance.
 Just click on the Binder button and wait for your instance to start.
 
-_Note:_ If you encounter a 404 error, click on the jupyter symbol and you will be redirected
+_Note:_ If you encounter a 404 error (as shown below), click on the jupyter symbol and you will be redirected
 to a file browser where you can select `molsim_ml.ipynb`.
+![Screenshot of the 404 error](_static/404error.png)
