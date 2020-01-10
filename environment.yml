@@ -10,7 +10,7 @@ dependencies:
   - jupyterlab=1.2.4
   - numpy=1.17.4
   - pandas=0.25.3
-  - pandas-profiling==2.3.0
+  - pandas-profiling==2.4.0
   - pip=19.3.1
   - plotly=4.4.1
   - python=3.7.5
