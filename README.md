@@ -46,9 +46,11 @@ jupyter notebook molsim_ml.ipynb
 
 ![Screenshot of the Colab environment](_static/colab.png)
 
-Here, you can use relatively powerful computing resources from Google for free.
+Here, you can use relatively powerful computing resources from Google for free
+(like GPUs and TPUs).
 Click the "Open in Colab" button on the top and run the first three cells to
-install the dependencies. Then you should be able to use the notebook in Colab.
+install the dependencies. 
+Then you should be able to use the notebook in Colab. 
 
 **Make sure to make a copy into your Google Drive and work on this copy. And
 not on the shared notebook!**
