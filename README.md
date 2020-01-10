@@ -51,7 +51,7 @@ Click the "Open in Colab" button on the top and run the first three cells to
 install the dependencies. Then you should be able to use the notebook in Colab.
 
 **Make sure to make a copy into your Google Drive and work on this copy. And
-not on the shared notebook**
+not on the shared notebook!**
 
 _Note:_ If you have a Google Account from your organization, e.g. university, you might
 need to log out and use your personal account as many organizations block
