@@ -38,6 +38,10 @@ Use run the first three cells to install the dependencies. Then you should be
 able to use the notebook in CoLab. Make sure that you make a copy into your
 Google Drive and that you work on this copy.
 
+If you have a Google Account from your organization, e.g. university, you might
+need to log out and use your personal account as many organizations block
+third-party applications. 
+
 ### Use it on Binder
 It can take some time to build the instance and the computing resources are
 limited. For this, just click on the Binder button.
