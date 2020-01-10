@@ -4,6 +4,11 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/ml_molsim2020.git/master?filepath=molsim_ml)
 
 ## How to run it
+This exercise will need in some parts more computational resources than most of
+the other exercises. If you have a modern laptop and want to use it, we
+recommend to use it. If you do not want to use your machine or the cluster, you
+can also run the exercises on Google Colab or Binder.
+
 ### Run it locally (recommended) 
 We recommend that you run the exercises locally on your on machine. For this you
 need to create a conda environment using the `envrionment.yml` file we provide
