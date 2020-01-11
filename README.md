@@ -37,7 +37,7 @@ cd ml_molsim2020
 Now you can create a new conda environment.
 
 ```(bash)
-conda create --name molsim_ml --file=environment.yml
+conda create --file=environment.yml
 ```
 
 After this completed, active the environment and open the jupyter notebook
