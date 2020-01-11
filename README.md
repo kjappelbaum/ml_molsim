@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/download/releases/3.7.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-In this exercise we will build simple a model that can predict the carbon dioxide uptake in MOFs.
+In this exercise we will build a simple model that can predict the carbon dioxide uptake in MOFs.
 
 ![Parity plot result](_static/result.gif)
 
