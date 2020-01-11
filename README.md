@@ -90,3 +90,7 @@ kaggle competitions submit -c molsim2020 -f submission.csv -m "Message"
 ```
 
 Please share your code with a Kaggle notebook!
+
+
+## Aknowledgments
+We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback. 
