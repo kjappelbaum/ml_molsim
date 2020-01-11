@@ -54,3 +54,7 @@ DATA_DIR = 'data'
 DATA_FILE = os.path.join(DATA_DIR, 'data.csv')
 
 np.random.seed(RANDOM_SEED)
+
+df = pd.read_csv('data/data.csv')
+profile = pandas_profiling.ProfileReport(df.sample(10), minimal=True)
+
