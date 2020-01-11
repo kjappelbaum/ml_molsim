@@ -5,6 +5,10 @@
 [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/download/releases/3.7.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+In this exercise we will build simple a model that can predict the CO$_2$ uptake in MOFs.
+
+![Parity plot result](_static/result.gif)
+
 ## How to run it
 
 Some parts of this exercise will need more computational resources than most of
