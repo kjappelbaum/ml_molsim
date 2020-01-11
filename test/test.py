@@ -58,3 +58,5 @@ np.random.seed(RANDOM_SEED)
 df = pd.read_csv('data/data.csv')
 profile = pandas_profiling.ProfileReport(df.sample(10), minimal=True)
 
+print(df.head())
+
