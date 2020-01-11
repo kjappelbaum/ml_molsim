@@ -42,7 +42,6 @@ from sklearn.utils import check_array
 
 # plotting 
 import matplotlib.pyplot as plt 
-%matplotlib inline 
 import seaborn as sns
 
 # for interactive plots, you can try to use holoviewes
