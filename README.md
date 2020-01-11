@@ -75,23 +75,25 @@ _Note:_ If you encounter a 404 error (as shown below), click on the jupyter symb
 to a file browser where you can select `molsim_ml.ipynb`.
 ![Screenshot of the 404 error](_static/404error.png)
 
-## Join the competion on Kaggle 
+## Join the competion on Kaggle
 
 We also host a [Kaggle competition](http://www.kaggle.com/c/molsim2020) for this exercise.
 
-To join this competition, you need to create an account on www.kaggle.com. 
+To join this competition, you need to create an account on www.kaggle.com.
 You can either drag and drop your solution `.csv` on the [submission
-page](http://www.kaggle.com/c/molsim2020) or use the kaggle API. 
+page](https://www.kaggle.com/c/molsim2020/submit) or use the kaggle API.
+
+![Kaggle submission page](_static/kaggle_upload.png)
 
 To use this, you need to export your username and a token. More details can be
-found in [their repository](https://github.com/Kaggle/kaggle-api). 
+found in [their repository](https://github.com/Kaggle/kaggle-api).
 
-```(bash) 
+```(bash)
 kaggle competitions submit -c molsim2020 -f submission.csv -m "Message"
 ```
 
 Please share your code with a Kaggle notebook!
 
-
 ## Aknowledgments
-We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback. 
+
+We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback.
