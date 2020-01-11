@@ -5,7 +5,7 @@
 [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/download/releases/3.7.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-In this exercise we will build simple a model that can predict the CO$_2$ uptake in MOFs.
+In this exercise we will build simple a model that can predict the carbon dioxide uptake in MOFs.
 
 ![Parity plot result](_static/result.gif)
 
@@ -13,7 +13,7 @@ In this exercise we will build simple a model that can predict the CO$_2$ uptake
 
 Some parts of this exercise will need more computational resources than most of
 the other MolSim exercises. If you have a modern laptop, we recommend you run them
-on the laptop. 
+on the laptop.
 If you do not want to use your machine or the cluster, you
 can also run the exercises on Google Colab or Binder.
 
@@ -53,8 +53,8 @@ jupyter notebook molsim_ml.ipynb
 Here, you can use relatively powerful computing resources from Google for free
 (like GPUs and TPUs).
 Click the "Open in Colab" button on the top and run the first three cells to
-install the dependencies. 
-Then you should be able to use the notebook in Colab. 
+install the dependencies.
+Then you should be able to use the notebook in Colab.
 
 **Make sure to make a copy into your Google Drive and work on this copy. And
 not on the shared notebook!**
