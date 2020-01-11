@@ -88,3 +88,5 @@ found in [their repository](https://github.com/Kaggle/kaggle-api).
 ```(bash) 
 kaggle competitions submit -c molsim2020 -f submission.csv -m "Message"
 ```
+
+Please share your code with a Kaggle notebook!
