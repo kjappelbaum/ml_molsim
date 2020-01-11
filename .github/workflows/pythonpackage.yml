@@ -25,7 +25,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Conda info
         shell: bash -l {0}
-        run:  export CONDA_ALWAYS_YES="true" && conda create  --file=environment.yml  && conda activate molsim_ml && python test/test.py
+        run:  export CONDA_ALWAYS_YES="true" && conda env create --file environment.yml  && conda activate molsim_ml && python test/test.py
       - name: Conda list
         shell: pwsh
-        run: export CONDA_ALWAYS_YES="true" && conda create --file=environment.yml && conda activate molsim_ml && python test/test.py
+        run: export CONDA_ALWAYS_YES="true" && cconda env create --file environment.yml && conda activate molsim_ml && python test/test.py
