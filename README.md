@@ -81,16 +81,10 @@ We also host a [Kaggle competition](http://www.kaggle.com/c/molsim2020) for this
 
 To join this competition, you need to create an account on www.kaggle.com.
 You can either drag and drop your solution `.csv` on the [submission
-page](https://www.kaggle.com/c/molsim2020/submit) or use the kaggle API.
+page](https://www.kaggle.com/c/molsim2020/submit).
 
 ![Kaggle submission page](_static/kaggle_upload.png)
 
-To use this, you need to export your username and a token. More details can be
-found in [their repository](https://github.com/Kaggle/kaggle-api).
-
-```(bash)
-kaggle competitions submit -c molsim2020 -f submission.csv -m "Message"
-```
 
 Please share your code with a Kaggle notebook!
 
