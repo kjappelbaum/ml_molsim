@@ -4,6 +4,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/ml_molsim2020.git/master?filepath=molsim_ml)
 [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/download/releases/3.7.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Actions Status](https://github.com/kjappelbaum/ml_molsim2020/workflows/Python%20package/badge.svg)](https://github.com/kjappelbaum/ml_molsim2020/actions)
 
 In this exercise we will build a simple model that can predict the carbon dioxide uptake in MOFs.
 
