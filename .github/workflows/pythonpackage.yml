@@ -26,6 +26,3 @@ jobs:
       - name: Conda bash
         shell: bash -l {0}
         run:  export CONDA_ALWAYS_YES="true" && conda env create --file environment.yml  && conda activate molsim_ml && python test/test.py
-      - name: Conda pwsh
-        shell: pwsh
-        run:  conda init powershell; . $profile; conda env create -y --file environment.yml; conda activate molsim_ml; python test/test.py
