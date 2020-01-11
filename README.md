@@ -85,9 +85,8 @@ page](https://www.kaggle.com/c/molsim2020/submit).
 
 ![Kaggle submission page](_static/kaggle_upload.png)
 
-
 Please share your code with a Kaggle notebook!
 
-## Aknowledgments
+## Acknowledgements 
 
 We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback.
