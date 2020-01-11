@@ -9,7 +9,7 @@ In this exercise we will build a simple model that can predict the carbon dioxid
 
 ![Parity plot result](_static/result.gif)
 
-## How to run it
+# How to run it
 
 Some parts of this exercise will need more computational resources than most of
 the other MolSim exercises. If you have a modern laptop, we recommend you run them
@@ -73,3 +73,18 @@ Just click on the Binder button and wait for your instance to start.
 _Note:_ If you encounter a 404 error (as shown below), click on the jupyter symbol and you will be redirected
 to a file browser where you can select `molsim_ml.ipynb`.
 ![Screenshot of the 404 error](_static/404error.png)
+
+## Join the competion on Kaggle 
+
+We also host a [Kaggle competition](http://www.kaggle.com/c/molsim2020) for this exercise.
+
+To join this competition, you need to create an account on www.kaggle.com. 
+You can either drag and drop your solution `.csv` on the [submission
+page]((http://www.kaggle.com/c/molsim2020) or use the kaggle API. 
+
+To use this, you need to export your username and a token. More details can be
+found in [their repository](https://github.com/Kaggle/kaggle-api). 
+
+```(bash) 
+kaggle competitions submit -c molsim2020 -f submission.csv -m "Message"
+```y
