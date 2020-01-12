@@ -1,6 +1,6 @@
 # ML workshop MolSim 2020
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1jaRBPC3u-ianxiUGLsfZqMgYirEKfn_j)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kjappelbaum/ml_molsim2020/blob/master/molsim_ml.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/ml_molsim2020.git/master?filepath=molsim_ml)
 [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/download/releases/3.7.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -9,6 +9,8 @@
 In this exercise we will build a simple model that can predict the carbon dioxide uptake in MOFs.
 
 ![Parity plot result](_static/result.gif)
+
+You can find more background information in the accompanying [notes](notes/notes.pdf).
 
 # How to run it
 
@@ -56,6 +58,8 @@ Here, you can use relatively powerful computing resources from Google for free
 Click the "Open in Colab" button on the top and run the first three cells to
 install the dependencies.
 Then you should be able to use the notebook in Colab.
+
+![Making a copy in Colab](_static/save_copy_colab.png)
 
 **Make sure to make a copy into your Google Drive and work on this copy. And
 not on the shared notebook!**
