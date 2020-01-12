@@ -84,11 +84,14 @@ to a file browser where you can select `molsim_ml.ipynb`.
 
 We also host a [Kaggle competition](http://www.kaggle.com/c/molsim2020) for this exercise.
 
-To join this competition, you need to create an account on www.kaggle.com.
+To join this competition, you need to create an account on www.kaggle.com and use the features (`features.csv`) you can find on the competition site or also in the `data` directory to predict the high-pressure uptake of carbon dioxide.
+
 You can either drag and drop your solution `.csv` on the [submission
 page](https://www.kaggle.com/c/molsim2020/submit).
 
 ![Kaggle submission page](_static/kaggle_upload.png)
+
+An example submission file can be found in `data/submission.csv`. 
 
 Please share your code with a Kaggle notebook!
 
