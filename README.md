@@ -87,6 +87,6 @@ page](https://www.kaggle.com/c/molsim2020/submit).
 
 Please share your code with a Kaggle notebook!
 
-## Acknowledgements 
+## Acknowledgements
 
-We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback.
+We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback and Berend Smit for sponsering the main prize.
