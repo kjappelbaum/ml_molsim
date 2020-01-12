@@ -27,7 +27,7 @@ First, you need to create a conda environment using the `environment.yml`
 file we provide in this repository.
 
 If you do not already have anaconda installed, head over to
-https://docs.conda.io/en/latest/miniconda.html and install a python 3.7 version
+https://docs.conda.io/en/latest/miniconda.html and install a Python 3.7 version
 for your operating system.
 
 Then, create a new folder and clone this repository
@@ -71,7 +71,7 @@ third-party applications.
 
 ### Use it on Binder
 
-MyBinder is a free service to run interactively run jupyter notebooks from git repositories.
+MyBinder is a free service to run jupyter notebooks from git repositories.
 Compared to the Colab, computing resources are limited, and it can take some time
 to start your instance.
 Just click on the Binder button and wait for your instance to start.
@@ -80,7 +80,7 @@ _Note:_ If you encounter a 404 error (as shown below), click on the jupyter symb
 to a file browser where you can select `molsim_ml.ipynb`.
 ![Screenshot of the 404 error](_static/404error.png)
 
-## Join the competion on Kaggle
+## Join the competition on Kaggle
 
 We also host a [Kaggle competition](http://www.kaggle.com/c/molsim2020) for this exercise.
 
@@ -94,4 +94,4 @@ Please share your code with a Kaggle notebook!
 
 ## Acknowledgements
 
-We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback and Berend Smit for sponsering the main prize.
+We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback and input, and Berend Smit for sponsoring the main prize for the Kaggle competition.
