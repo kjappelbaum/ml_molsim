@@ -33,7 +33,7 @@ for your operating system.
 Then, create a new folder and clone this repository
 
 ```(bash)
-git clone https://github.com/kjappelbaum/ml_molsim2020.git
+git clone --depth 1 https://github.com/kjappelbaum/ml_molsim2020.git
 cd ml_molsim2020
 ```
 
