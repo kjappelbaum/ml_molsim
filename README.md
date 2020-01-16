@@ -99,4 +99,4 @@ Please share your code with a Kaggle notebook!
 
 ## Acknowledgements
 
-We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback and input, and Berend Smit for sponsoring the main prize for the Kaggle competition.
+We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback and input, Peter Alexander Knudsen  for spotting typos, and Berend Smit for sponsoring the main prize for the Kaggle competition.
