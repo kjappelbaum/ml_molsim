@@ -1,6 +1,6 @@
-# ML workshop MolSim 2020
+# ML workshop CHE609 at EPFL
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kjappelbaum/ml_molsim2020/blob/master/molsim_ml.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kjappelbaum/ml_molsim2020/blob/che609/molsim_ml.ipynb)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/ml_molsim2020.git/master?filepath=molsim_ml)
 [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/download/releases/3.7.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -17,10 +17,8 @@ If you find some errors, typos or issues feel free to [open an issue](https://he
 
 # How to run it
 
-Some parts of this exercise will need more computational resources than most of
-the other MolSim exercises. If you have a modern laptop, we recommend you run them
-on the laptop.
-If you do not want to use your machine or the cluster, you
+If you have a modern laptop, we recommend you run them
+on the laptop. If you do not want to use your machine or the cluster, you
 can also run the exercises on Google Colab or Binder.
 
 ### Run it locally (recommended)
@@ -39,16 +37,21 @@ git clone --depth 1 https://github.com/kjappelbaum/ml_molsim2020.git
 cd ml_molsim2020
 ```
 
-Now you can create a new conda environment.
+Now you can activate the course enviornment
 
 ```(bash)
-conda env create --file environment.yml
+conda activate che609
 ```
 
-After this completed, active the environment and open the jupyter notebook
+And install the additional requirements 
 
 ```(bash)
-conda activate molsim_ml
+...
+```
+
+After this completed, open the jupyter notebook
+
+```(bash)
 jupyter notebook molsim_ml.ipynb
 ```
 
@@ -84,12 +87,12 @@ to a file browser where you can select `molsim_ml.ipynb`.
 
 ## Join the competition on Kaggle
 
-We also host a [Kaggle competition](http://www.kaggle.com/c/molsim2020) for this exercise.
+We also host a [Kaggle competition](http://www.kaggle.com/c/che609) for this exercise.
 
 To join this competition, you need to create an account on www.kaggle.com and use the features (`features.csv`) you can find on the competition site or also in the `data` directory to predict the high-pressure uptake of carbon dioxide.
 
 You can either drag and drop your solution `.csv` on the [submission
-page](https://www.kaggle.com/c/molsim2020/submit).
+page](https://www.kaggle.com/c/che609/submit).
 
 ![Kaggle submission page](_static/kaggle_upload.png)
 
@@ -99,4 +102,4 @@ Please share your code with a Kaggle notebook!
 
 ## Acknowledgements
 
-We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback and input, Peter Alexander Knudsen  for spotting typos, and Berend Smit for sponsoring the main prize for the Kaggle competition.
+We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback and input, Peter Alexander Knudsen for spotting typos.
