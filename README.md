@@ -37,7 +37,7 @@ git clone --depth 1 https://github.com/kjappelbaum/ml_molsim2020.git
 cd ml_molsim2020
 ```
 
-Now you can activate the course enviornment
+Now you can activate the course environment
 
 ```(bash)
 conda activate che609
