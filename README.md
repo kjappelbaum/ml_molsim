@@ -67,6 +67,9 @@ _Note:_ If you have a Google Account from your organization, e.g. university, yo
 need to log out and use your personal account as many organizations block
 third-party applications.
 
+_Note:_ Google Colab also requires that you reload the JavaScript of holoviews in each plotting cell. 
+So, you have to start every cell with a holoviews plot with `hv.extension('bokeh')`
+
 ## Join the competition on Kaggle
 
 We also host a [Kaggle competition](http://www.kaggle.com/c/che609) for this exercise.
