@@ -74,16 +74,6 @@ _Note:_ If you have a Google Account from your organization, e.g. university, yo
 need to log out and use your personal account as many organizations block
 third-party applications.
 
-### Use it on Binder
-
-MyBinder is a free service to run jupyter notebooks from git repositories.
-Compared to the Colab, computing resources are limited, and it can take some time
-to start your instance.
-Just click on the Binder button and wait for your instance to start.
-
-_Note:_ If you encounter a 404 error (as shown below), click on the jupyter symbol and you will be redirected
-to a file browser where you can select `molsim_ml.ipynb`.
-![Screenshot of the 404 error](_static/404error.png)
 
 ## Join the competition on Kaggle
 
