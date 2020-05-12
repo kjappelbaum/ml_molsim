@@ -43,10 +43,10 @@ Now you can activate the course enviornment
 conda activate che609
 ```
 
-And install the additional requirements 
+And install the additional requirements using
 
 ```(bash)
-...
+conda env update -f environment.yml
 ```
 
 After this completed, open the jupyter notebook
