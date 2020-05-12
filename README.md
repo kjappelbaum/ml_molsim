@@ -23,14 +23,7 @@ can also run the exercises on Google Colab or Binder.
 
 ### Run it locally (recommended)
 
-First, you need to create a conda environment using the `environment.yml`
-file we provide in this repository.
-
-If you do not already have anaconda installed, head over to
-https://docs.conda.io/en/latest/miniconda.html and install a Python 3.7 version
-for your operating system.
-
-Then, create a new folder and clone this repository
+Create a new folder and clone this repository (you need `git` for this, if you get a `missing command` error for `git` you can install it with `sudo apt-get install git`)
 
 ```(bash)
 git clone --depth 1 https://github.com/kjappelbaum/ml_molsim2020.git
@@ -74,7 +67,6 @@ _Note:_ If you have a Google Account from your organization, e.g. university, yo
 need to log out and use your personal account as many organizations block
 third-party applications.
 
-
 ## Join the competition on Kaggle
 
 We also host a [Kaggle competition](http://www.kaggle.com/c/che609) for this exercise.
@@ -86,7 +78,7 @@ page](https://www.kaggle.com/c/che609/submit).
 
 ![Kaggle submission page](_static/kaggle_upload.png)
 
-An example submission file can be found in `data/submission.csv`. 
+An example submission file can be found in `data/submission.csv`.
 
 Please share your code with a Kaggle notebook!
 
