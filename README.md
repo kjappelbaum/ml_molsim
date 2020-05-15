@@ -19,7 +19,7 @@ If you find some errors, typos or issues feel free to [open an issue](https://he
 
 If you have a modern laptop, we recommend you run them
 on the laptop. If you do not want to use your machine or the cluster, you
-can also run the exercises on Google Colab or Binder.
+can also run the exercises on Google Colab.
 
 ### Run it locally (recommended)
 
@@ -67,7 +67,7 @@ _Note:_ If you have a Google Account from your organization, e.g. university, yo
 need to log out and use your personal account as many organizations block
 third-party applications.
 
-_Note:_ Google Colab also requires that you reload the JavaScript of holoviews in each plotting cell. 
+_Note:_ Google Colab also requires that you reload the JavaScript of holoviews in each plotting cell.
 So, you have to start every cell with a holoviews plot with `hv.extension('bokeh')`
 
 ## Join the competition on Kaggle
@@ -82,8 +82,6 @@ page](https://www.kaggle.com/c/che609/submit).
 ![Kaggle submission page](_static/kaggle_upload.png)
 
 An example submission file can be found in `data/submission.csv`.
-
-Please share your code with a Kaggle notebook!
 
 ## Acknowledgements
 
