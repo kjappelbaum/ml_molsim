@@ -30,7 +30,7 @@ git clone --depth 1 https://github.com/kjappelbaum/ml_molsim2020.git
 cd ml_molsim2020
 ```
 
-Now you can activate the course environment
+Now you can activate the course environment you created in the carpentry module. If you didn't create it there, head to the instructions of the first module and create it now
 
 ```(bash)
 conda activate che609
