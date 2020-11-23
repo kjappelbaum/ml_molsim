@@ -11,7 +11,6 @@ In this exercise we will build a simple model that can predict the carbon dioxid
 
 ![Parity plot result](_static/result.gif)
 
-You can find more background information in the accompanying [notes](notes/notes.pdf).
 
 If you find some errors, typos or issues feel free to [open an issue](https://help.github.com/en/github/managing-your-work-on-github/about-issues) or directly make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
