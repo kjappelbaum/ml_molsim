@@ -1,20 +1,20 @@
 channels:
-  - defaults
   - conda-forge
+  - defaults
 dependencies:
-  - bokeh==1.4.0
-  - holoviews=1.12.7
-  - hyperopt=0.2.2
-  - jupyterlab=1.2.4
-  - numpy=1.17.4
-  - pandas=0.25.3
-  - pandas-profiling==2.4.0
-  - pip=19.3.1
-  - plotly=4.4.1
+  - pip
+  - pandas-profiling==2.9.0
+  - ipywidgets
+  - hyperopt
+  - kaggle
+  - plotly
+  - scikit-learn=0.24.0
+  - scipy
+  - numpy
   - python=3.7.5
-  - scikit-learn=0.21.3
-  - scipy=1.3.1
-  - seaborn=0.9.0
-  - kaggle=1.5.6
-  - ipywidgets=7.5.1
   - py-xgboost
+  - jupyterlab
+  - bokeh
+  - pandas
+  - holoviews=1.14.1
+  - seaborn
