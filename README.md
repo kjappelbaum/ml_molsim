@@ -1,7 +1,7 @@
-# ML workshop CH315 at EPFL
+# ML workshop for MolSim 2021
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kjappelbaum/ml_molsim2020/blob/ch-315/molsim_ml.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/ml_molsim2020/ch-315?filepath=molsim_ml.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kjappelbaum/ml_molsim2020/blob/molsim2021/molsim_ml.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/ml_molsim2020/molsim2021?filepath=molsim_ml.ipynb)
 [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/download/releases/3.7.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Actions Status](https://github.com/kjappelbaum/ml_molsim2020/workflows/Python%20package/badge.svg)](https://github.com/kjappelbaum/ml_molsim2020/actions)
@@ -22,26 +22,30 @@ can also run the exercises on Google Colab.
 
 ### Run it locally (recommended)
 
+The following steps assume that you use MacOS or some Linux flavor. If you use Windows, we recommend that you first install the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+
 Create a new folder and clone this repository (you need `git` for this, if you get a `missing command` error for `git` you can install it with `sudo apt-get install git`)
 
-```(bash)
+```bash
 git clone --depth 1 https://github.com/kjappelbaum/ml_molsim2020.git
 cd ml_molsim2020
 ```
 
-Now you can activate the course environment you created in the carpentry module. If you didn't create it there, head to the instructions of the first module and create it now
+We recommend that you create a virtual conda environment on your computer in which you install the dependencies for this exercise. To do so head over to [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and follow the installation instructions there. 
 
-```(bash)
-conda activate ch315
+Then, use 
+
+```bash
+conda env create -f environment.yml -n molsim2021
 ```
 
-And install the additional requirements using
+You can activate this environment using
 
-```(bash)
-conda env update -f environment.yml
+```bash
+conda activate molsim2021
 ```
 
-After this completed, open the jupyter notebook
+After this you can  open the jupyter notebook
 
 ```(bash)
 jupyter notebook molsim_ml.ipynb
