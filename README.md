@@ -7,13 +7,11 @@
 [![Actions Status](https://github.com/kjappelbaum/ml_molsim2020/workflows/Python%20package/badge.svg)](https://github.com/kjappelbaum/ml_molsim2020/actions)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3605363.svg)](https://doi.org/10.5281/zenodo.3605363)
 
-In this exercise we will build a simple model that can predict the carbon dioxide uptake in MOFs.
+In this exercise we will build a simple model that can predict the carbon dioxide uptake in MOFs. The goal is to get familiar with the tools that are used for machine learning and to develop an understanding of the workflow, tricks, and pitfalls (e.g., why baselines are important). Some more of the theory can be found [in our review](https://pubs.acs.org/doi/abs/10.1021/acs.chemrev.0c00004).
 
 ![Parity plot result](_static/result.gif)
 
 If you find some errors, typos or issues feel free to [open an issue](https://help.github.com/en/github/managing-your-work-on-github/about-issues) or directly make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
-
-If you are not with the Python data science stack, we can recommend you [some cheatsheets](https://www.utc.fr/~jlaforet/Suppl/python-cheatsheets.pdf).
 
 # How to run it
 
@@ -21,7 +19,15 @@ If you have a modern laptop, we recommend you run them
 on the laptop. If you do not want to use your machine or the cluster, you
 can also run the exercises on Google Colab.
 
-### Run it locally (recommended)
+## Some tips
+
+- If you are not with the Python data science stack, we can recommend you [some cheatsheets](https://www.utc.fr/~jlaforet/Suppl/python-cheatsheets.pdf).
+- If you are not familiar with a function you can get help in a Jupyter notebook by going into the parentheses of a function and hitting SHIFT + ENTER, alternatively, you can just prepend a variable/function/library with `?`, e.g., `?str.replace()`
+- The errors you'll run into are most likely some that someone else already encountered. If you copy/paste the error message into a search engine like Google you will often find the solution to your problem on a site like StackOverflow
+- [Here](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/) are some nice tips/tricks for using Jupyter notebooks
+- For plotting, we use the [holoviews library](https://holoviews.org/) as it is one of the simplest ways to create interactive figures in Python (it is a high-level interface to the [bokeh library](https://bokeh.org/)). You mind find the [Getting Started section of the documentation](https://holoviews.org/getting_started/) useful if you want to understand it better. I also found [this guide from Caltech](http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2019a/content/lessons/lesson_03/intro_to_holoviews.html) useful.
+
+## Run it locally (recommended)
 
 The following steps assume that you use MacOS or some Linux flavor. If you use Windows, we recommend that you first install the [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
 
@@ -52,7 +58,13 @@ After this you can start Jupyter Lab and select the `molsim_ml.ipynb` file from 
 jupyter lab
 ```
 
-### Use it on Google Colab
+Make sure that the notebook kernel runs in the correct environment:
+
+![Environment name](_static/conda_env_name.png)
+
+If the environment name that is shown is different from "molsim2021" you can click on it and select the correct one.
+
+## Use it on Google Colab
 
 ![Screenshot of the Colab environment](_static/colab.png)
 
