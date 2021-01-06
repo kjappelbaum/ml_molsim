@@ -32,9 +32,9 @@ git clone --depth 1 https://github.com/kjappelbaum/ml_molsim2020.git
 cd ml_molsim2020
 ```
 
-We recommend that you create a virtual conda environment on your computer in which you install the dependencies for this exercise. To do so head over to [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and follow the installation instructions there. 
+We recommend that you create a virtual conda environment on your computer in which you install the dependencies for this exercise. To do so head over to [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and follow the installation instructions there.
 
-Then, use 
+Then, use
 
 ```bash
 conda env create -f environment.yml -n molsim2021
@@ -46,19 +46,18 @@ You can activate this environment using
 conda activate molsim2021
 ```
 
-After this you can  open the jupyter notebook
+After this you can start Jupyter Lab and select the `molsim_ml.ipynb` file from the file browser.
 
 ```(bash)
-jupyter notebook molsim_ml.ipynb
+jupyter lab
 ```
 
 ### Use it on Google Colab
 
 ![Screenshot of the Colab environment](_static/colab.png)
 
-Here, you can use relatively powerful computing resources from Google for free
-(like GPUs and TPUs).
-Click the "Open in Colab" button on the top and run the first three cells to
+Here, you can use relatively powerful computing resources (like [GPUs](https://en.wikipedia.org/wiki/Graphics_processing_unit) and [TPUs](https://en.wikipedia.org/wiki/Tensor_Processing_Unit)) from Google for free.
+Click the "Open in Colab" button on the top, then make a copy of the notebook into your Google Drive, and run the first three cells to
 install the dependencies.
 Then you should be able to use the notebook in Colab.
 

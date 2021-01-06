@@ -16,10 +16,10 @@ jobs:
       fail-fast: false
       matrix:
         os: ["ubuntu-latest", "macos-latest", "windows-latest"]
-        python-version: ["3.7"]
+        python-version: ["3.6", "3.7", "3.8"]
     steps:
       - uses: actions/checkout@v1
-      - uses: goanpeca/setup-miniconda@v1
+      - uses: conda-incubator/setup-miniconda@v2
         with:
           auto-update-conda: true
           python-version: ${{ matrix.python-version }}

@@ -14,6 +14,7 @@ dependencies:
   - python=3.7.5
   - py-xgboost
   - jupyterlab
+  - nb_conda
   - bokeh
   - pandas
   - holoviews=1.14.1
