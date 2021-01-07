@@ -87,4 +87,5 @@ So, you have to start every cell with a holoviews plot with `hv.extension('bokeh
 
 ## Acknowledgements
 
-We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback and input, Peter Alexander Knudsen for spotting typos.
+We want to thank [Leopold Talirz](https://github.com/ltalirz) for incredibly valuable feedback and input during the initial phases of development.
+We also want to thank Peter Alexander Knudsen for spotting typos, as well as [Prof. Tristan Bereau](https://github.com/tbereau) and all MolSim participant and TAs for feedback.
