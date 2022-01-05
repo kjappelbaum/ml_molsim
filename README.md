@@ -1,10 +1,10 @@
 # ML workshop for MolSim 2021
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kjappelbaum/ml_molsim2020/blob/molsim2021/molsim_ml.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/ml_molsim2020/molsim2021?filepath=molsim_ml.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kjappelbaum/ml_molsim/blob/molsim2021/molsim_ml.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/ml_molsim/molsim2021?filepath=molsim_ml.ipynb)
 [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/download/releases/3.7.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Actions Status](https://github.com/kjappelbaum/ml_molsim2020/workflows/Python%20package/badge.svg)](https://github.com/kjappelbaum/ml_molsim2020/actions)
+[![Actions Status](https://github.com/kjappelbaum/ml_molsim/workflows/Python%20package/badge.svg)](https://github.com/kjappelbaum/ml_molsim/actions)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3605363.svg)](https://doi.org/10.5281/zenodo.3605363)
 
 In this exercise we will build a simple model that can predict the carbon dioxide uptake in MOFs. The goal is to get familiar with the tools that are used for machine learning and to develop an understanding of the workflow, tricks, and pitfalls (e.g., why baselines are important). Some more of the theory can be found [in our review](https://pubs.acs.org/doi/abs/10.1021/acs.chemrev.0c00004).
@@ -34,8 +34,8 @@ The following steps assume that you use MacOS or some Linux flavor. If you use W
 Create a new folder and clone this repository (you need `git` for this, if you get a `missing command` error for `git` you can install it with `sudo apt-get install git`)
 
 ```bash
-git clone --depth 1 https://github.com/kjappelbaum/ml_molsim2020.git
-cd ml_molsim2020
+git clone --depth 1 https://github.com/kjappelbaum/ml_molsim.git
+cd ml_molsim
 ```
 
 We recommend that you create a virtual conda environment on your computer in which you install the dependencies for this exercise. To do so head over to [Miniconda](https://docs.conda.io/en/latest/miniconda.html) and follow the installation instructions there.
@@ -43,13 +43,13 @@ We recommend that you create a virtual conda environment on your computer in whi
 Then, use
 
 ```bash
-conda env create -f environment.yml -n molsim2021
+conda env create -f environment.yml -n ml_molsim
 ```
 
 You can activate this environment using
 
 ```bash
-conda activate molsim2021
+conda activate ml_molsim
 ```
 
 After this you can start Jupyter Lab and select the `molsim_ml.ipynb` file from the file browser.
@@ -62,7 +62,7 @@ Make sure that the notebook kernel runs in the correct environment:
 
 ![Environment name](_static/conda_env_name.png)
 
-If the environment name that is shown is different from "molsim2021" you can click on it and select the correct one.
+If the environment name that is shown is different from "ml_molsim" you can click on it and select the correct one.
 
 ## Use it on Google Colab
 

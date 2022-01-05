@@ -3,19 +3,19 @@ channels:
   - defaults
 dependencies:
   - pip
-  - pandas-profiling==2.9.0
+  - pandas-profiling
   - ipywidgets
   - hyperopt
   - kaggle
   - plotly
-  - scikit-learn=0.24.0
+  - scikit-learn
   - scipy
   - numpy
-  - python=3.7.5
+  - python
   - py-xgboost
   - jupyterlab
   - nb_conda
   - bokeh
   - pandas
-  - holoviews=1.14.1
+  - holoviews
   - seaborn
