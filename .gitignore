@@ -186,3 +186,4 @@ tags
 .history
 
 # End of https://www.gitignore.io/api/vim,macos,python,jupyternotebooks,visualstudiocode
+molsim_solution.ipynb
