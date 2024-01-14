@@ -3,7 +3,6 @@ channels:
   - defaults
 dependencies:
   - pip
-  - pandas-profiling
   - ipywidgets
   - hyperopt
   - kaggle
@@ -19,3 +18,5 @@ dependencies:
   - pandas
   - holoviews
   - seaborn
+  - notebook<7.0.0
+  - pymatviz
