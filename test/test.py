@@ -4,7 +4,6 @@ import numpy as np
 
 # data
 import pandas as pd 
-import pandas_profiling
 
 # machine learning 
 # scaling of data
@@ -56,7 +55,6 @@ DATA_FILE = os.path.join(DATA_DIR, 'data.csv')
 np.random.seed(RANDOM_SEED)
 
 df = pd.read_csv('data/data.csv')
-profile = pandas_profiling.ProfileReport(df.sample(10), minimal=True)
 
 print(df.head())
 
