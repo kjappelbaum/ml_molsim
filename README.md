@@ -1,7 +1,7 @@
 # ML workshop for MolSim 2024
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kjappelbaum/ml_molsim/blob/2022/molsim_ml.ipynb)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/ml_molsim/2022?filepath=molsim_ml.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kjappelbaum/ml_molsim/blob/2024/molsim_ml.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kjappelbaum/ml_molsim/2024?filepath=molsim_ml.ipynb)
 [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/download/releases/3.7.0/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Actions Status](https://github.com/kjappelbaum/ml_molsim/workflows/Python%20package/badge.svg)](https://github.com/kjappelbaum/ml_molsim/actions)
@@ -34,7 +34,8 @@ The following steps assume that you use MacOS or some Linux flavor. If you use W
 Create a new folder and clone this repository (you need `git` for this, if you get a `missing command` error for `git` you can install it with `sudo apt-get install git`)
 
 ```bash
-git clone --depth 1 https://github.com/kjappelbaum/ml_molsim.git
+git clone --depth 1 https://github.com/kjappelbaum/ml_molsim.git\
+git checkout 2024
 cd ml_molsim
 ```
 
