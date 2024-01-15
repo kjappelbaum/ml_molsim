@@ -9,7 +9,7 @@
 
 In this exercise we will build a simple model that can predict the carbon dioxide uptake in MOFs. The goal is to get familiar with the tools that are used for machine learning and to develop an understanding of the workflow, tricks, and pitfalls (e.g., why baselines are important). Some more of the theory can be found [in our review](https://pubs.acs.org/doi/abs/10.1021/acs.chemrev.0c00004).
 
-![Parity plot result](_static/result.gif)
+![Parity plot result](assests/result.gif)
 
 If you find some errors, typos or issues feel free to [open an issue](https://help.github.com/en/github/managing-your-work-on-github/about-issues) or directly make a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests).
 
@@ -61,20 +61,20 @@ jupyter lab
 
 Make sure that the notebook kernel runs in the correct environment:
 
-![Environment name](_static/conda_env_name.png)
+![Environment name](assests/conda_env_name.png)
 
 If the environment name that is shown is different from "ml_molsim" you can click on it and select the correct one.
 
 ## Use it on Google Colab
 
-![Screenshot of the Colab environment](_static/colab.png)
+![Screenshot of the Colab environment](assests/colab.png)
 
 Here, you can use relatively powerful computing resources (like [GPUs](https://en.wikipedia.org/wiki/Graphics_processing_unit) and [TPUs](https://en.wikipedia.org/wiki/Tensor_Processing_Unit)) from Google for free.
 Click the "Open in Colab" button on the top, then make a copy of the notebook into your Google Drive, and run the first three cells to
 install the dependencies.
 Then you should be able to use the notebook in Colab.
 
-![Making a copy in Colab](_static/save_copy_colab.png)
+![Making a copy in Colab](assests/save_copy_colab.png)
 
 **Make sure to make a copy into your Google Drive and work on this copy. And
 not on the shared notebook!**
